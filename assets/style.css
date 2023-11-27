@@ -1,0 +1,87 @@
+/* Colour Palette */
+:root {
+    --light: #F3F6F4;
+    --grey: #878484;
+    --darkGrey: #2B2727;
+    --textCol: #141212;
+    --accent: #6015EB;
+  
+  }
+
+
+/* MISC STYLES */
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    background-color: var(--light);
+  }
+
+  /* HEADER STYLES */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    border-radius: 75%;
+}
+
+h1 {
+    color: var(--textCol);
+    font-style: italic;
+    text-decoration: underline var(--accent);
+}
+
+.nav-bar {
+    display: flex;
+
+    list-style: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--textCol);
+}
+
+li {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid var(--accent);
+    border-radius: 50%;
+}
+
+
+/* HERO STYLES */
+
+.hero {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.hero-image {
+    max-width: 25%;
+    height: auto;
+    background-repeat: none;
+}
+
+.hero-title {
+    font-size: 5vh;
+}
+
+.hero-para {
+    font-size: 3vh;
+}
